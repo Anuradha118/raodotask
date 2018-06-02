@@ -1,0 +1,37 @@
+{
+  "name": "raodo_task",
+  "version": "1.0.0",
+  "description": "Rest API for UserManagement System",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.9.3",
+    "npm": "5.5.1"
+  },
+  "author": "Anuradha Sahoo",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.2.1",
+    "bcrypt": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "*",
+    "cors": "*",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "nodemailer": "^4.6.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "passport": "^0.4.0",
+    "password-validator": "^4.0.0",
+    "random-string": "^0.2.0",
+    "sendotp": "^1.2.8",
+    "shortid": "*",
+    "validator": "^9.4.1"
+  }
+}
